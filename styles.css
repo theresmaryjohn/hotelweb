@@ -1,0 +1,15 @@
+label {
+    color: rgb(7, 109, 109);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.one{
+    color: blue;
+    font-weight: bold;
+    border: 1px dashed green;
+    padding: 20px;
+}
+body{
+    border: 10px solid gold;
+    padding: 10px;
+}

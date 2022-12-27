@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1  {
+            color: brown;
+            font-family: fantasy;
+            font-style: oblique;
+            border:3px solid rgb(8, 8, 8);
+            margin: 20px;
+            background-color: rgb(220, 231, 231);
+            padding: 10px;
+
+        }
+    </style>
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1 align="center">HTML Forms</h1>
+    <form action="">
+        <label for="username">Name:</label>
+            <input type="text" id="username" name="username"><br><br>
+        <label for="email">Email Id:</label>
+            <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+        <label for="dateofbirth">Date of Birth:</label>
+            <input type="date" id="dateofbirth" name="dateofbirth" required><br><br>
+        <label for="gender">Female</label>
+            <input type="radio" id="gender1" name="gender">
+        <label for="gender">Male</label>
+            <input type="radio" id="gender2" name="gender">
+        <label for="gender">Other</label>
+            <input type="radio" id="gender3" name="gender"><br><br>
+        <label for="question">Recovery questions:</label>
+        <select name="question" id="question">
+            <option value="one">What is your favourite food?</option>
+            <option value="two">Who is your childhood friend??</option>
+            <option value="three">What is your pet's name?</option>
+        </select><br><br>
+        <label for="answer">Answer:</label>
+        <input type="text" id="answer" name="answer"><br><br>
+        <label for="address" >Address:</label><br>
+        <textarea name="adress" id="address" cols="20" rows="10" placeholder="Type your address......"></textarea><br><br>
+                <input type="submit" id="submit" name="submit">
+        </form>
+    <p class="one"> This paragraph contains a lot of lines in the source code, but the browser ignores it.</p>
+    <p> This paragraph contains  a lot of spaces in the source code, but the browser ignores it.</p>
+</body>
+</html>      
